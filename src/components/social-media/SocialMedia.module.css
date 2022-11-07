@@ -1,0 +1,23 @@
+.container {
+  margin: 10px;
+  min-width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+.media{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--color-primary);
+}
+
+@media (max-width: 400px) {
+  .container {
+    min-width: 50%;
+  }
+  .media {
+    width: 25px;
+    height: 25px;
+  }
+}

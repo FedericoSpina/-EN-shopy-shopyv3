@@ -1,0 +1,132 @@
+.logo{
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-login);
+  color: #C9BEB4;
+}
+.footer{
+  background-color: var(--color-login);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login {
+  min-width: 100vw;
+  min-height: 90.65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-login);
+  font-size: calc(10px + 2vmin);
+  
+}
+
+.login h1 {
+  font-size: 35px;
+  text-align: center;
+  color: var(--color-text);
+  margin-bottom: 25px;
+}
+
+.login form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  width: 600px;
+  height: 450px;
+  padding: 25px;
+  box-shadow: 0 0 10px #000;
+  border-radius: 30px;
+  background-color: var(--color-background-light);
+}
+
+.login input{
+  width: 525px;
+  height: 75px;
+  margin: 10px 0px 0px 0px;
+  padding: 25px;
+  border-radius: 20px;
+  color: #C9BEB4;
+  border: none;
+}
+
+.login button{
+  
+  width: 300px;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+  color:white;
+  background-color: var(--color-button);
+}
+.login button:hover{
+  background-color: var(--color-button-light);
+  cursor: pointer;
+}
+
+.other{
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+.facebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  height: 50px;
+  width: 225px;
+  margin-top: 20px;
+  margin-right: 10px;
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+  color:white;
+  background-color: #7583CA;
+}
+
+.google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  height: 50px;
+  width: 225px;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+  color:black;
+  background-color: white;
+}
+@media (max-width: 800px) {
+  .login form {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .login form {
+    width: 100%;
+  }
+  .facebook  {
+    font-size: 9.25px;
+  height: 50px;
+  width: 165px;
+  }
+  .google  {
+    font-size: 9.25px;
+  height: 50px;
+  width: 165px;
+  }
+  .login input{
+    width: 100%;
+    height: 75px;
+  }
+}
